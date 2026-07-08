@@ -1,0 +1,17 @@
+# Logs
+logs/
+*.log
+
+# Temp files
+*.tmp
+temp/
+archives/
+
+# Environment
+.venv/
+node_modules/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
