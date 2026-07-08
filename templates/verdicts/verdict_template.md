@@ -1,0 +1,3 @@
+# Verdict Template
+[FINAL_VERDICT]
+...

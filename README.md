@@ -18,6 +18,25 @@ Chaos-Combine — это среда для систематического ис
 - `examples/` — Кейсы и результаты прошлых исследований.
 - `tools/` — (В разработке) Инструментальные средства автоматизации.
 
+## Toolkit
+### [Prompt Library](prompts/)
+Библиотека специализированных промптов для автоматизации анализа:
+- **Bootstrap:** `system_bootstrap.md`, `chaos_combine_boot.md`
+- **Audit:** Инструменты системной проверки.
+- **Reduction:** Протоколы упрощения систем (SOL, Minimality).
+- **Comparison:** Фреймворки состязательного анализа.
+- **Engineering:** Режимы глубокого исследования.
+
+### [Template Library](templates/)
+Стандартизированные формы отчетности:
+- [Audit Templates](templates/audit/)
+- [Reduction Templates](templates/reduction/)
+- [Comparison Reports](templates/comparison/)
+- [Engineering Verdicts](templates/verdicts/)
+
+### [Examples](examples/)
+Практические примеры применения методологий Chaos-Combine в различных областях (Архитектура, Физика, CAD, Редукция).
+
 ## Навигация по документации
 - [Философия проекта](docs/philosophy/CHAOS_COMBINE_PHILOSOPHY.md)
 - [Методология](docs/methodology/)

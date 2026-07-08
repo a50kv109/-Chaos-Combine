@@ -1,0 +1,3 @@
+# Architecture Review Template
+[REPORT_TYPE: ARCHITECTURE_REVIEW]
+...
