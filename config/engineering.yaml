@@ -1,0 +1,18 @@
+mode: engineering
+analysis_depth: high
+enable_red_team: true
+enable_semantic_drift: true
+enable_comparison: true
+report_format: markdown
+verbosity: detailed
+strict_mode: true
+physically_aware: true
+thresholds:
+  canonical: 0.80
+  derived: 0.50
+  remove: 0.20
+languages: [en, ru, zh, de, fr]
+outputs: [markdown, json, yaml]
+logging:
+  enabled: true
+  level: info

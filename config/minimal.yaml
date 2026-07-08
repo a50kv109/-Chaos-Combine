@@ -1,0 +1,7 @@
+mode: minimal
+analysis_depth: low
+enable_red_team: false
+enable_semantic_drift: false
+enable_comparison: false
+report_format: text
+verbosity: brief

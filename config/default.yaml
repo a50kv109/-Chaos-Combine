@@ -1,0 +1,18 @@
+mode: default
+analysis_depth: medium
+enable_red_team: false
+enable_semantic_drift: false
+enable_comparison: false
+report_format: markdown
+verbosity: normal
+strict_mode: false
+physically_aware: false
+thresholds:
+  canonical: 0.70
+  derived: 0.40
+  remove: 0.15
+languages: [en, ru]
+outputs: [markdown]
+logging:
+  enabled: true
+  level: info

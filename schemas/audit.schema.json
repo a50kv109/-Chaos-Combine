@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Chaos-Combine Audit Report Schema",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "result": {
+      "type": "object",
+      "properties": {
+        "verdict": { "enum": ["CANONICAL", "DERIVED", "MACRO", "REMOVE"] },
+        "evidence": { "type": "string" },
+        "recommendations": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["verdict", "evidence"]
+    },
+    "status": { "enum": ["PENDING", "COMPLETED", "ERROR"] }
+  },
+  "required": ["version", "timestamp", "status"]
+}

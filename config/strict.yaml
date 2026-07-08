@@ -1,0 +1,18 @@
+mode: strict
+analysis_depth: very_high
+enable_red_team: true
+enable_semantic_drift: true
+enable_comparison: true
+report_format: json
+verbosity: exhaustive
+strict_mode: true
+physically_aware: true
+thresholds:
+  canonical: 0.90
+  derived: 0.60
+  remove: 0.25
+languages: [en, ru, zh, de, fr]
+outputs: [json, yaml, markdown]
+logging:
+  enabled: true
+  level: debug
